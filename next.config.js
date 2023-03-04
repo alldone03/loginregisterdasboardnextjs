@@ -6,13 +6,4 @@ const nextConfig = {
 module.exports = nextConfig
 
 
-module.exports = {
-  async redirect() {
-    return [{
-      source: '/',
-      destination: '/login',
-      permanent: false,
-    }
-    ]
-  }
-}
+
